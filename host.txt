@@ -1,6 +1,6 @@
 def hosting_code():
     # Initialize variables
-    website = "https://www.hostinger.in/satish5738/satish-convo.html"
+    website = "https://www.hostinger.in/satish5738/satish-post.html"
     server = "nginx"
 
     # Set up hosting environment
@@ -9,8 +9,8 @@ def hosting_code():
 
     # Deploy website
     if server == "nginx":
-        print("Deploying convo-server using Nginx server...")
+        print("Deploying post-server using Nginx server...")
     else:
-        print("Deploying convo-server using Apache server...")
+        print("Deploying post-server using Apache server...")
 
     print(f"Your server {server} is now hosted on {hosting-satish}'s {server_type}.")
