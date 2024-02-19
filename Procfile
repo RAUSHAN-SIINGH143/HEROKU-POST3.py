@@ -1,1 +1,1 @@
-web: python SATISH-CONVO.py
+web: python SATISH-POST.py
