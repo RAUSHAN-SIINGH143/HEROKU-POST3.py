@@ -1,16 +1,10 @@
-def hosting_code():
-    # Initialize variables
-    website = "https://www.hostinger.in/satish5738/satish-post.html"
-    server = "nginx"
-
-    # Set up hosting environment
-    hosting_provider = "Amazon Web Services"
-    server_type = "EC2 instance"
-
-    # Deploy website
-    if server == "nginx":
-        print("Deploying post-server using Nginx server...")
+def login():
+    correct_username = "RAUSHAN"
+    correct_password = "T.S.BRAND"
+    username = input("correct_username")
+    password = input("correct_password")
+    if username == correct_username and password == correct_password:
+        print("Login successful!")
     else:
-        print("Deploying post-server using Apache server...")
-
-    print(f"Your server {server} is now hosted on {hosting-satish}'s {server_type}.")
+        print("Incorrect username or password. Please try again.")
+login()
